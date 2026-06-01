@@ -1,0 +1,2 @@
+SELECT name, Role FROM Employees LEFT JOIN Buildings ON Building = Building_name WHERE Building_name IS NULL 
+SELECT building_name, role FROM Buildings LEFT JOIN Employees ON Building_name = Building WHERE Role is NULL
